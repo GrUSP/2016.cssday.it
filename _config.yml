@@ -3,4 +3,4 @@ highlighter: pygments
 permalink: /blog/:title
 rdiscount:
   extensions: [smart]
-conf_data: "Faenza, 18/03/2016"
+conf_data: "Faenza, 25/03/2016"
