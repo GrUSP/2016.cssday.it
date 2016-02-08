@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8" />
 
-  <title>{{ page.ttl }} - {{ page.conf_data }}</title>
+  <title>{{ page.ttl }} {{ page.conf_anno }} - {{ page.conf_data }}</title>
 
   <!-- Responsive and mobile friendly stuff -->
   <meta name="HandheldFriendly" content="True">
@@ -81,11 +81,11 @@
         </div>
 
         <div class="event_title">
-          <div class="event_logo column_11">
-            <img src="/img/confs/css/css3.png" alt="css3day" width="256" />
-            <h1 id="fittext1">day</h1>
-            <h2 id="fittext2">{{ page.conf_data }}</h2>
+          <div class="event_logo">
+            <img src="/img/confs/css/css3.png" class="event_logo__image" alt="css3day" width="256" />
           </div>
+          <h1 id="fittext1">day</h1>
+          <h2 id="fittext2">{{ page.conf_data }}</h2>
           <div class="clear"></div>
         </div>
 
