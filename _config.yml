@@ -1,6 +1,7 @@
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:title
 rdiscount:
   extensions: [smart]
 conf_data: "Faenza, 25/03/2016"
+media_tags: "faenza"
