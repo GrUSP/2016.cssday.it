@@ -5,3 +5,4 @@ rdiscount:
   extensions: [smart]
 conf_data: "Faenza, 25/03/2016"
 media_tags: "faenza"
+conf_year: 2016
