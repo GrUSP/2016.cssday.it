@@ -1,6 +1,0 @@
-markdown: kramdown
-highlighter: pygments
-permalink: /blog/:title
-rdiscount:
-  extensions: [smart]
-conf_data: "Faenza, 27/03/2015"
