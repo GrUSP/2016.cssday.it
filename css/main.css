@@ -101,7 +101,7 @@ h4 a{
     text-decoration: none;
 }
 
-.sponsors h4, h4.deco{
+.supporter h4, h4.deco{
     background: transparent url(../img/bg_h4_line.png) no-repeat center center;
     margin-bottom: 20px;
 }
@@ -232,7 +232,7 @@ a.more:hover{
 
 
 /**/
-.alpha_8, .alpha_16, .alpha_24, .alpha_32, .sponsors{
+.alpha_8, .alpha_16, .alpha_24, .alpha_32, .supporter{
     padding: 60px 0 0 0;
 }
 .alpha_8{
@@ -673,75 +673,88 @@ a:hover.slides{
 
 
 /* Sponsors */
-.sponsors{
-    text-align: center;
-    margin-bottom: 80px;
+.supporter {
+	text-align: center;
+	margin-bottom: 80px;
 }
-.sponsors .banner{
-    display: inline-block;
-    margin-left: 1%;
-    margin-right: 1%;
-    line-height: 0;
-    text-align: center;
-    /*
-    border: 0px solid rgba(255,255,255,.8);
-    -moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.5);
-    box-shadow: 0 0 5px rgba(0,0,0,.5);
-    */
+.supporter .banner{
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	line-height: 0;
+	text-align: center;
 }
-.sponsors .banner img{
+.supporter .banner img{
+	width: 100%;
+	height: auto;
+}
+
+.supporter h4 {
+	font-size: 24px;
+
+}
+
+.supporter .gold {
+	color: #DBB541;
+}
+
+.supporter .silver {
+	color: #BFBFBF;
+}
+
+.supporter .bronze {
+	color: #CD7F32;
+}
+
+.supporter .platinum {
+	color: #BFBFBF;
+}
+
+.supporter li {
+	text-align: left;
+}
+
+.supporter .euro {
+	font-family: helvetica, verdana, arial, helve, sans-serif;
+	text-align: left;
+	letter-spacing: normal;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.gold_supporter, .silver_supporter, .bronze_supporter, .platinum_supporter {
+	clear: both;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.platinum_supporter .banner {
+	width: 25.00%;
+}
+
+.gold_supporter .banner {
+	width: 21.68%;
+}
+.silver_supporter .banner{
+	width: 16.8%;
+}
+.bronze_supporter .banner{
+	width: 13.5%;
+}
+
+.supporter .banner img{
     width: 100%;
     height: auto;
     background-color: white;
 }
 
-.sponsors h4 {
+.supporter h4 {
     font-size: 24px;
 
 }
 
-.sponsors .gold {
-    color: #DBB541;
-}
 
-.sponsors .silver {
-    color: #BFBFBF;
-}
-
-.sponsors .bronze {
-    color: #CD7F32;
-}
-
-.sponsors li {
-    text-align: left;
-}
-
-.sponsors  .euro {
-    font-family: helvetica, verdana, arial, helve, sans-serif;
-    text-align: left;
-    letter-spacing: normal;
-    font-size: 24px;
-    font-weight: 800;
-}
-
-.gold_sponsors, .silver_sponsors, .bronze_sponsors{
-    clear: both;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.gold_sponsors .banner {
-    width: 21.68%;
-}
-.silver_sponsors .banner{
-    width: 16.8%;
-}
-.bronze_sponsors .banner{
-    width: 13.5%;
-}
-
-.sponsors .banner img {
+.supporter .banner img {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
